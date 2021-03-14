@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "014dc50e7c8d13daa9d88d08bbb707f360f6e78c",
+    "author": "mpadge <mark.padgham@email.com>",
+    "time": "2021-03-14 14:35:33",
+    "files": 3,
+    "merge": false,
+    "message": "lint dl-bikedata file\n"
+  },
+  "remote": "https://github.com/ropensci/bikedata",
+  "pkg": "bikedata"
+}

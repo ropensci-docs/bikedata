@@ -1,0 +1,10 @@
+pandoc: '2.5'
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles:
+  bikedata: bikedata.html
+last_built: 2021-03-14T14:37Z
+urls:
+  reference: https://docs.ropensci.org/bikedata/reference
+  article: https://docs.ropensci.org/bikedata/articles
+
