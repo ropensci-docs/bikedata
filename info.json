@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "54eeed586fda8692584726653cb06521cacfc5c8",
+    "author": "mpadge <mark.padgham@email.com>",
+    "time": "2024-02-06 11:25:54",
+    "files": 5,
+    "merge": false,
+    "message": "update actions/checkout -> v4\n"
+  },
+  "repo": "https://github.com/ropensci/bikedata",
+  "pkg": "bikedata"
+}
