@@ -1,0 +1,9 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  bikedata: bikedata.html
+last_built: 2026-08-30T07:32Z
+urls:
+  reference: https://docs.ropensci.org/bikedata/reference
+  article: https://docs.ropensci.org/bikedata/articles

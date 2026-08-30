@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "5d0098c5645a7d0bc84b1fa006d1cb1068fa1496",
+    "author": "mpadge <mark.padgham@email.com>",
+    "time": "2026-06-25T14:38:26Z",
+    "files": 6,
+    "merge": false,
+    "message": "update workflows and readme badge url\n"
+  },
+  "repo": "https://github.com/ropensci/bikedata",
+  "pkg": "bikedata",
+  "time": "2026-08-30T07:32:26Z"
+}
