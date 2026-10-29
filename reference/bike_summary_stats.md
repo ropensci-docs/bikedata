@@ -1,0 +1,47 @@
+# Extract summary statistics of database
+
+Extract summary statistics of database
+
+## Usage
+
+``` r
+bike_summary_stats(bikedb)
+```
+
+## Arguments
+
+- bikedb:
+
+  A string containing the path to the SQLite3 database. If no directory
+  specified, it is presumed to be in
+  [`tempdir()`](https://rdrr.io/r/base/tempfile.html).
+
+## Value
+
+A `data.frame` containing numbers of trips and stations along with times
+and dates of first and last trips for each city in database and a final
+column indicating whether the files match the latest published versions.
+
+## Examples
+
+``` r
+if (FALSE) { # \dontrun{
+data_dir <- tempdir ()
+bike_write_test_data (data_dir = data_dir)
+# dl_bikedata (city = "la", data_dir = data_dir) # or some real data!
+# Remove one London file that triggers an API call which may fail tests:
+file.remove (file.path (tempdir(),
+             "01aJourneyDataExtract10Jan16-23Jan16.csv"))
+bikedb <- file.path (data_dir, "testdb")
+store_bikedata (data_dir = data_dir, bikedb = bikedb)
+# create database indexes for quicker access:
+index_bikedata_db (bikedb = bikedb)
+
+bike_summary_stats ("testdb")
+
+bike_rm_test_data (data_dir = data_dir)
+bike_rm_db (bikedb)
+# don't forget to remove real data!
+# file.remove (list.files (".", pattern = ".zip"))
+} # }
+```
