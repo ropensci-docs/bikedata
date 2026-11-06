@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "64d7cd412442cea5813e8b0e226e4c05140338c5",
+    "author": "mpadge <mark.padgham@email.com>",
+    "time": "2026-11-06T11:25:43Z",
+    "files": 4,
+    "merge": false,
+    "message": "mv README.Rmd -> README-src.Rmd for tangled render\n"
+  },
+  "repo": "https://github.com/ropensci/bikedata",
+  "pkg": "bikedata",
+  "time": "2026-11-06T15:23:20Z"
+}
